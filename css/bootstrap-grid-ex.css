@@ -18,36 +18,64 @@ h3{
     font-size: 40px;
 }
 
-/*rounded-circle*/
-main>div.row>div.col2 div.row2 {
-    justify-content: space-around;
-}
 
-main>div.row>div.col2> {
-    justify-content: center;
-}
 
-.rounded-circle{
+.big-but{
     border: 5px solid white;
     height: 140px;
     width: 140px;
 }
 
-/*row-styling*/
-.picturebox img {
-    padding: 10px;
-    background-color: #e6e6e6;
-    border-radius: 2%;
-}
+/*!*row-styling*!*/
+/*.picturebox img {*/
+    /*padding: 10px;*/
+    /*background-color: #e6e6e6;*/
+    /*border-radius: 2%;*/
+/*}*/
 
 
-/*break-points*/
-header>hr {
+/*!*break-points*!*/
+/*header>hr {*/
+    /*display: none;*/
+/*}*/
+
+/*@media screen and (min-width: 600px) {*/
+    /*header>hr {*/
+        /*display: block;*/
+    /*}*/
+/*}*/
+
+/*-------------small buttons-----------------------*/
+
+.abc {
     display: none;
 }
-
-@media screen and (min-width: 600px) {
-    header>hr {
+@media (min-width: 990px) {
+    .abc {
         display: block;
     }
+}
+
+
+
+.custom-abc {
+    display: none;
+}
+@media (min-width: 800px) {
+    .custom-abc {
+        display: block;
+    }
+}
+
+
+img{
+    width: 100%;
+}
+
+
+.small{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 5px 0;
 }
