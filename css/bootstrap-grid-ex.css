@@ -1,10 +1,10 @@
 body{
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
 }
 
 /*header*/
 
-button{
+button, p{
     font-family: 'Abel', sans-serif;
 }
 
@@ -19,9 +19,35 @@ h3{
 }
 
 /*rounded-circle*/
+main>div.row>div.col2 div.row2 {
+    justify-content: space-around;
+}
+
+main>div.row>div.col2> {
+    justify-content: center;
+}
 
 .rounded-circle{
     border: 5px solid white;
     height: 140px;
     width: 140px;
+}
+
+/*row-styling*/
+.picturebox img {
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-radius: 2%;
+}
+
+
+/*break-points*/
+header>hr {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    header>hr {
+        display: block;
+    }
 }
