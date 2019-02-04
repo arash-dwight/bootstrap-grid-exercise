@@ -1,0 +1,27 @@
+body{
+    background-color: #e6e6e6;
+}
+
+/*header*/
+
+button{
+    font-family: 'Abel', sans-serif;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+}
+
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+
+/*rounded-circle*/
+
+.rounded-circle{
+    border: 5px solid white;
+    height: 140px;
+    width: 140px;
+}
