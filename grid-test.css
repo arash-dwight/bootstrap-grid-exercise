@@ -23,3 +23,15 @@ img{
     width: 100%;
 }
 
+/*-------------small buttons-----------------------*/
+
+.small{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 5px 0;
+}
+
+
+
+
