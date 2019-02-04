@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    background: #E6E6E6;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.row {
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col,
+.col-6,
+.col-4,
+.col-3,
+.col-2 {
+    float: left;
+    width: 100%;
+    padding: 1em;
+    margin: 4px 0;
+}
+
+#design {
+    color: #E6563B;
+    position: relative;
+}
+
+#develop {
+    color: #EB9D3A;
+    position: relative;
+}
+
+#support {
+    color: #7CB06C;
+    position: relative;
+}
+
+#host {
+    color: #00ABA9;
+    position: relative;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 3em;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 64px;
+    color: #000;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    color: #000;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #000;
+}
+
+h4 {
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    color: #000;
+}
+
+h5 {
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    color: #000;
+}
+
+i.fas {
+    font-size: 300px;
+}
+
+div#design h1.icon_text {
+    position: absolute;
+    bottom: 49%;
+    left: 28%;
+    background: #E6563B
+}
+
+div#develop h1.icon_text {
+    position: absolute;
+    bottom: 36%;
+    left: 48%;
+    background: #EB9D3A
+}
+
+div#support h1.icon_text {
+    position: absolute;
+    bottom: 49%;
+    left: 28%;
+    background: #7CB06C
+}
+
+div#host h1.icon_text {
+    position: absolute;
+    bottom: 49%;
+    left: 28%;
+    background: #00ABA9
+}
+
+
+/*div.icons i#design {*/
+    /*position: relative;*/
+
+/*}*/
+
+
+
+/*div.icons {*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*width: 1em;*/
+    /*height: auto;*/
+/*}*/
+
+/*i#design {*/
+    /*position: absolute;*/
+/*}*/
+
+/*h1.icon_text {*/
+    /*text-align: center;*/
+/*}*/
+
+/*div img.img-fluid {*/
+    /*width: 500 px;*/
+    /*height: auto;*/
+/*}*/
