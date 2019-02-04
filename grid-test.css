@@ -1,0 +1,25 @@
+.abc {
+    display: none;
+}
+@media (min-width: 990px) {
+    .abc {
+        display: block;
+    }
+}
+
+
+
+.custom-abc {
+    display: none;
+}
+@media (min-width: 800px) {
+    .custom-abc {
+        display: block;
+    }
+}
+
+
+img{
+    width: 100%;
+}
+
