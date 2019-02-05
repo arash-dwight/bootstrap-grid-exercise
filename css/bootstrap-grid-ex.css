@@ -18,6 +18,10 @@ button, p, span{
     font-family: 'Abel', sans-serif;
 }
 
+p.float-md-left.large-font {
+    font-size: 2em;
+}
+
 h2 {
     font-family: 'Anton', sans-serif;
     font-size: 48px;
