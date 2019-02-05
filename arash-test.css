@@ -1,19 +1,19 @@
 
 /*big button*/
-.button {
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 20px 2px;
-    cursor: pointer;
-    border-radius: 50%;
-    width: 105px;
-    height: 105px;
+/*.button {*/
+    /*border: none;*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    /*font-size: 20px;*/
+    /*margin: 20px 2px;*/
+    /*cursor: pointer;*/
+    /*border-radius: 50%;*/
+    /*width: 105px;*/
+    /*height: 105px;*/
 
-}
+/*}*/
 .button1{
     background-color: #e55443;
 }
@@ -26,19 +26,19 @@
 .button4{
     background-color: #00aba9;
 }
-.c {
-    border: none;
-    background-color: #ffffff;
+/*.c {*/
+    /*border: none;*/
+    /*background-color: #ffffff;*/
 
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 20px 2px;
-    border-radius: 50%;
-    width: 137px;
-    height: 143px;
-}
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    /*font-size: 20px;*/
+    /*margin: 20px 2px;*/
+    /*border-radius: 50%;*/
+    /*width: 137px;*/
+    /*height: 143px;*/
+/*}*/
 
 button:hover{
     background-color: #ddd;
@@ -48,7 +48,8 @@ button:hover{
 /*one image*/
 
 img{
-    width: 100%;
+    width: 105px;
+    height: 105px;
 
 }
 
@@ -71,13 +72,13 @@ a:hover {
     border-radius: 50%;
     color: white;
 }
-/*-----------------break point----------*/
-.custom-class {
-    display: none;
-}
-@media (min-width: 600px) {
-    .custom-class {
-        display: block;
-    }
-}
-/*-------------------------------------*/
+/*!*-----------------break point----------*!*/
+/*.custom-class {*/
+    /*display: none;*/
+/*}*/
+/*@media (min-width: 600px) {*/
+    /*.custom-class {*/
+        /*display: block;*/
+    /*}*/
+/*}*/
+/*!*-------------------------------------*!*/

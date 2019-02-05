@@ -2,6 +2,16 @@ body{
     background-color: #f0f0f0;
 }
 
+.top-banner{
+    height: 50px;
+    width: 100%;
+}
+
+.logo{
+    width: 105px;
+    height: 105px;
+
+}
 /*header*/
 
 button, p, span{
@@ -18,6 +28,10 @@ h3{
     font-size: 40px;
 }
 
+h5{
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+}
 
 
 .big-but{
@@ -27,23 +41,13 @@ h3{
 }
 
 /*row-styling*/
+
 .picturebox img {
     padding: 10px;
     background-color: #e6e6e6;
     border-radius: 2%;
 }
 
-
-/*!*break-points*!*/
-/*header>hr {*/
-    /*display: none;*/
-/*}*/
-
-/*@media screen and (min-width: 600px) {*/
-    /*header>hr {*/
-        /*display: block;*/
-    /*}*/
-/*}*/
 
 /*-------------small buttons-----------------------*/
 
@@ -90,4 +94,11 @@ img{
     width: 30px;
     float: right;
     margin: 5px 0;
+}
+
+/*fa-twitter*/
+
+.fa-twitter{
+    color: #08a1f0;
+    font-size: 2em;
 }
