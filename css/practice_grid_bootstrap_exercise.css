@@ -97,7 +97,7 @@ body {
 
 p {
     font-family: 'Abel', sans-serif;
-    font-size: 3em;
+    font-size: 1em;
 }
 
 h1 {
@@ -129,11 +129,6 @@ h5 {
     font-size: 28px;
     color: #000;
 }
-
-i.fas {
-    font-size: 14em;
-}
-
 
 div#design h1.icon_text {
     position: absolute;
