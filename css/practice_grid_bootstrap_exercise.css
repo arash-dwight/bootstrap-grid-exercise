@@ -34,24 +34,65 @@ body {
     margin: 4px 0;
 }
 
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.btn1 {
+    border-radius: 2px;
+}
+
+.btn2 {
+    border-radius: 80%;
+}
+
 #design {
     color: #E6563B;
     position: relative;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 8px solid white;
+    background: #E6563B;
 }
 
 #develop {
     color: #EB9D3A;
     position: relative;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 8px solid white;
+    background: #EB9D3A;
 }
 
 #support {
     color: #7CB06C;
     position: relative;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 8px solid white;
+    background: #7CB06C;
 }
 
 #host {
     color: #00ABA9;
     position: relative;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 8px solid white;
+    background: #00ABA9;
+
 }
 
 p {
@@ -90,8 +131,9 @@ h5 {
 }
 
 i.fas {
-    font-size: 300px;
+    font-size: 14em;
 }
+
 
 div#design h1.icon_text {
     position: absolute;
