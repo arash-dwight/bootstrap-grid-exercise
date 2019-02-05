@@ -19,7 +19,7 @@ button, p, span{
 }
 
 p.float-md-left.large-font {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 h2 {
@@ -64,6 +64,9 @@ h5{
     .abc {
         display: block;
     }
+    p.float-md-left.large-font {
+        font-size: 2em;
+    }
 
 }
 
@@ -74,6 +77,9 @@ h5{
 @media screen and (min-width:800px) {
     .custom-abc {
         display: block;
+    }
+    p.float-md-left.large-font {
+        font-size: 2em;
     }
 }
 
